@@ -1,0 +1,23 @@
+7 31
+19 0
+
+
+ADD_8 T1 X Y
+MUL_8 T2 T1 R1
+XOR t0 x0 y0
+XOR t1 x1 y1
+XOR t2 x2 y2
+XOR t3 x3 y3
+XOR t4 x4 y4
+XOR t5 x5 y5
+XOR t6 x6 y6
+XOR t7 x7 y7
+AND t8 t0 t1
+AND t9 t2 t3
+AND t10 t4 t5
+AND t11 t6 t7
+AND t12 t8 t9
+AND t13 t10 t11
+AND t14 t12 t13
+MUL_8 T3 t14 R1
+ADD_8 T4 T2 T3
